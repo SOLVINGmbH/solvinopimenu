@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "solvin-opi-menu-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/solvinOpiMenu/SolvinOpiMenuApplicationCustomizer.js",
+          "manifest": "./src/extensions/solvinOpiMenu/SolvinOpiMenuApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SolvinOpiMenuApplicationCustomizerStrings": "lib/extensions/solvinOpiMenu/loc/{locale}.js"
+  }
+}
