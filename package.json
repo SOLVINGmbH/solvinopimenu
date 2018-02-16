@@ -11,11 +11,14 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "@microsoft/sp-core-library": "~1.4.0",
     "@microsoft/decorators": "~1.4.0",
-    "@types/webpack-env": ">=1.12.1 <1.14.0",
+    "@microsoft/sp-application-base": "~1.4.0",
+    "@microsoft/sp-core-library": "~1.4.0",
     "@microsoft/sp-dialog": "~1.4.0",
-    "@microsoft/sp-application-base": "~1.4.0"
+    "@types/jquery": "^3.3.0",
+    "@types/microsoft-ajax": "0.0.33",
+    "@types/sharepoint": "^2016.1.0",
+    "@types/webpack-env": ">=1.12.1 <1.14.0"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "~1.4.0",

@@ -1,0 +1,168 @@
+/* Standard ausblenden 
+.ms-compositeHeader-horizontalNav {
+    display:none!important;
+}*/
+
+/* top and bottom */
+
+.placeholdertop {
+    text-align:left;
+    font-weight:bold;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(234,234,234);
+    float:left;
+    width:100%
+  }
+
+.placeholderbottom {
+    text-align:left;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(234,234,234);
+    width:100%;
+    padding-left: 31px;
+    font-size: smaller;
+    float:left;
+}
+.placeholderbottomelement {
+    float:left;
+}
+.placeholderbottomheader {
+    font-weight: bold;
+}
+a.bottomlink:link, a.bottomlink:visited {
+    text-decoration:none;
+    color:#333;
+}
+a.bottomlink:hover {
+    text-decoration: underline;
+}
+
+/* Megamenu */
+
+@media (max-width:1023px)
+{
+    #menucontainer {
+        margin-left: 20px;
+    }    
+}
+@media (min-width:1024px)
+{
+    #menucontainer {
+        margin-left: 210px;
+    }
+
+}
+
+#menucontainer {
+    width: auto; 
+    overflow: hidden; 
+
+}
+
+.topmenu {
+    float:left;
+    height:40px;
+    line-height:40px;
+    vertical-align:middle;
+    text-align:center;
+    margin-top: 0px;
+    overflow: visible;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(234,234,234);
+    padding:0px 14px 0px 14px;
+}
+
+.topmenuselected {
+    background-color:#f2f2f2;
+   /*font-family:"Segoe UI Full Stack";*/
+    color:black;
+/*	    margin-left: -12px;*/
+    cursor:pointer;
+    
+}
+.topmenuselectedweb {
+    /*background-color:rgb(231,240,247)!important;*/
+}
+    
+
+/**************************************************************************************************************/
+
+/*Submenu*/
+.submenu {
+    background-color:#f2f2f2;
+    color:black;
+    position:relative;
+    z-index:9999;
+    /*margin-top:52px;*/
+    margin-left: -12px;
+    padding: 12px 30px 12px 30px;
+    box-shadow: 10px 10px 10px #888888;
+    display: table;
+    min-width:150px;
+    
+}
+.submenusectionbody {	
+    /*max-height: 0;*/
+    overflow: hidden;	
+    transition: max-height 0.2s ease-out 0.4s;
+    padding-left: 10px;
+    font-size:14px;
+    font-weight:normal;
+}
+a.submenusectionbody:link {
+    text-decoration:none;
+}
+
+a.submenusectionheadinga:link{
+    color:black !important;
+    font-size:16px;
+}
+
+a.submenusectionheadinga:link{
+    color:orange;
+    font-size:16px;
+}
+
+a.submenusectionheadinga{
+    color:black !important;
+    font-size:16px;
+}
+
+.submenu a, .submenu a:visited {
+    color: black;
+    text-decoration:none;
+}
+
+.submenu a:hover{
+    color: #eb5b3e;
+    text-decoration:none;
+}
+
+.submenusection {
+    display: table;
+    padding-right:30px;
+    font-size:16px;
+    line-height:195%;
+}
+
+.submenusectionnewcol {
+    padding-top:15px;
+    padding-left:30px;
+    display:table-cell;
+}
+
+.submenusectionheading {
+    font-size:16px;
+    color:black !important;
+    /*font-weight:bold;*/
+}
+a.submenusectionheadinga:hover, div.topmenu:hover {
+    color: #eb5b3e !important;
+    /*font-weight:bolder !important;*/
+}
+
+/****************************************************************************/
+

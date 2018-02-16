@@ -11,7 +11,13 @@
       ]
     }
   },
-  "externals": {},
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-3.3.0.min.js",
+      "globalName": "jQuery"
+    },
+    "@microsoft/sp-module-loader": "node_modules/@microsoft/sp-module-loader/dist/sp-module-loader.js"
+  },
   "localizedResources": {
     "SolvinOpiMenuApplicationCustomizerStrings": "lib/extensions/solvinOpiMenu/loc/{locale}.js"
   }
